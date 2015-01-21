@@ -1,0 +1,23 @@
+{% extends 'HeVinciMockupBundle::mockup/competency/frame-tool.html.twig' %}
+
+{% block panelRest %}
+    <div class="panel-body">
+        <br>
+        <div class="alert alert-info" role="alert">
+            <i class="fa fa-info-circle"></i>
+            La création de référentiels suppose qu'au moins une échelle de difficulté ait été définie.
+            Cliquez sur le bouton ci-dessous pour créer une échelle.
+        </div>
+
+        <div id="tree">
+            <div id="ul-competence">
+
+            </div>
+        </div>
+    </div>
+    <div class="panel-footer">
+        <button class="btn btn-primary">
+            Créer une échelle
+        </button>
+    </div>
+{% endblock %}

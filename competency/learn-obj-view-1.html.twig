@@ -1,0 +1,94 @@
+{% extends "HeVinciMockupBundle::mockup/competency/learn-obj-tool.html.twig" %}
+
+{% block panelRest %}
+    <style>
+        table {
+            font-size: inherit;
+        }
+
+        table ul {
+            padding-left: 2em;
+            list-style-type: none;
+        }
+
+        table ul li:before {
+            content: "-";
+            position: relative;
+            left: -5px;
+        }
+
+        table ul li {
+            text-indent: -5px;
+        }
+    </style>
+    <div class="panel-body">
+        <table class="table table-bordered table-condensed">
+            <tr>
+                <th></th>
+                <th>Objectif</th>
+                <th>Référentiel</th>
+                <th>Niveau par défaut</th>
+                <th>Compétences</th>
+                <th>Niveau</th>
+            </tr>
+            <tr>
+                <td rowspan="2"><input type="radio" name="o" checked/></td>
+                <td rowspan="2">Améliorer ses compétences en lecture</td>
+                <td rowspan="2">Palef</td>
+                <td rowspan="2">B1</td>
+                <td>
+                    <ul>
+                        <li>
+                            Savoir lire
+                            <ul>
+                                <li>
+                                    Comprendre l'organisation du texte
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>
+                    <ul>
+                        <li>
+                            Savoir lire
+                            <ul>
+                                <li>
+                                    Percevoir la cohérence dans le texte
+                                    <ul>
+                                        <li>
+                                            Saisir la progression de l'information
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </td>
+                <td>A2</td>
+            </tr>
+            <tr>
+                <td><input type="radio" name="o"/></td>
+                <td>Maîtriser les concepts de base de la génétique</td>
+                <td>Biologie</td>
+                <td>Débutant</td>
+                <td>-</td>
+                <td>-</td>
+            </tr>
+        </table>
+    </div>
+    <div class="panel-footer">
+        <button id="show-add-form" class="btn btn-primary">
+            Créer un objectif
+        </button>
+        <button id="show-add-form" class="btn btn-primary">
+            Modifier
+        </button>
+        <button id="show-add-form" class="btn btn-primary">
+            Gérer les apprenants
+        </button>
+    </div>
+{% endblock %}

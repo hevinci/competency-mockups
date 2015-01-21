@@ -1,0 +1,17 @@
+{% extends "HeVinciMockupBundle::mockup/competency/learn-obj-tool.html.twig" %}
+
+{% block panelRest %}
+    <div class="panel-body">
+        <br>
+        <div class="alert alert-info" role="alert">
+            <i class="fa fa-info-circle"></i>
+            Il n'y a encore aucun objectif d'apprentissage.
+            Cliquez sur le bouton ci-dessous pour créer un nouvel objectif.
+        </div>
+    </div>
+    <div class="panel-footer">
+        <button id="show-add-form" class="btn btn-primary">
+            Créer un objectif
+        </button>
+    </div>
+{% endblock %}
