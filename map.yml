@@ -7,7 +7,7 @@
 - competency/frame-list.html.twig
 - competency/comp-new.html.twig
 - competency/frame-view-2.html.twig
-- competency/desc-new.html.twig
+- competency/ability-new.html.twig
 - competency/frame-view-3.html.twig
 - competency/resource-manager.html.twig
 - competency/activity-no-comp.html.twig
