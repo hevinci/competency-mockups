@@ -3,8 +3,8 @@
 - competency/frame-new-scale-2.html.twig
 - competency/frame-no-frame.html.twig
 - competency/frame-new-frame.html.twig
-- competency/frame-view-1.html.twig
 - competency/frame-list.html.twig
+- competency/frame-view-1.html.twig
 - competency/comp-new.html.twig
 - competency/frame-view-2.html.twig
 - competency/ability-new.html.twig
@@ -18,7 +18,9 @@
 - competency/learn-obj-start.html.twig
 - competency/learn-obj-new.html.twig
 - competency/learn-obj-view-1.html.twig
-- competency/learn-obj-new-comp.html.twig
+- competency/learn-obj-new-comp-1.html.twig
+- competency/learn-obj-new-comp-2.html.twig
+- competency/learn-obj-new-comp-3.html.twig
 - competency/learn-obj-view-2.html.twig
 - competency/learn-obj-view-3.html.twig
 - competency/learn-obj-view-4.html.twig
